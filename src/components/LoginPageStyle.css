@@ -1,6 +1,4 @@
-html {
-    background-color: #56baed;
-  }
+ 
   
   body {
     font-family: "Poppins", sans-serif;
@@ -256,4 +254,8 @@ html {
   
   #icon {
     width:60%;
+  }
+
+  form input{
+    text-align: left !important; 
   }

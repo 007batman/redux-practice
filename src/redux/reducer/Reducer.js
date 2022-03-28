@@ -4,7 +4,7 @@ const intialState = {
     data : [],
 };
 
-const reducer = (state= intialState,action) =>{
+const Reducer = (state= intialState,action) =>{
     switch(action.type){
         case actionTypes.GET_USER:
             return{
@@ -14,3 +14,4 @@ const reducer = (state= intialState,action) =>{
         default: return state;
     }
 }
+export default Reducer;
